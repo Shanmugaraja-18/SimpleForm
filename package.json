@@ -10,15 +10,15 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "file-saver": "^2.0.5" // Added file-saver as a dependency
+    "file-saver": "^2.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm install", // Added predeploy script to install dependencies before deployment
-    "deploy": "npm run build" // Added deploy script to build the project
+    "predeploy": "npm install",
+    "deploy": "npm run build"
   },
   "eslintConfig": {
     "extends": [
